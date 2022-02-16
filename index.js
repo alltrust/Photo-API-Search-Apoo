@@ -40,11 +40,6 @@ search.addEventListener("submit", e=>{
                <img class = "photo-img"  src = ${element.src.original}>
                `
                arrOfImgDivs.push(imgDiv);
-            //    const imgs =  document.querySelector('.photo-img')
-            //     // if(arrOfImgDivs.length % 2 ===0){
-            //     //     imgs.src = `${element.src.original}`
-            //     //    }
-
                 let imgOfContainer1 = (arrOfImgDivs.length % 3 === 0)
                 let imgOfContainer2 = (arrOfImgDivs.length % 3 === 1)
                 let imgOfContainer3 = (arrOfImgDivs.length % 3 === 2)
