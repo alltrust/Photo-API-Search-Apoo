@@ -1,4 +1,4 @@
-const API_KEY = '563492ad6f91700001000001a907491b13eb4652a83a5241b9292c19'
+const API_KEY = 'YOUR-API-KEY'
 
 const coverImg = document.querySelector('.cover-img');
 coverImg.innerHTML = `
